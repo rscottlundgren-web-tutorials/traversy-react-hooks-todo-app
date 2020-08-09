@@ -69,7 +69,7 @@ function App() {
 	const removeTodo = (index) => {
 		const newTodos = [...todos]
 		newTodos.splice(index, 1)
-		setTodos(newTodos
+		setTodos(newTodos)
 	}
 
 	return (
